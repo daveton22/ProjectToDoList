@@ -1,0 +1,105 @@
+body {
+  background-color: #49b749;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.todo-wrapper {
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+}
+
+.todo-wrapper h2 {
+  margin: 0;
+}
+
+.todo-wrapper p {
+  font-style: italic;
+  color: #666;
+  margin: 5px 0;
+}
+
+.todo-wrapper ol {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-wrapper ol li {
+  margin: 5px 0;
+  padding: 3px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+}
+
+.todo-wrapper .pretty-button {
+  margin: 10px 2px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: #0093d5;
+  border: none;
+  color: #fff;
+}
+
+.todo-wrapper .pretty-button:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.todo-wrapper input {
+  margin: 0;
+  border-radius: 5px;
+  width: 60%;
+  padding: 5px;
+  border: solid 1px #ccc;
+  font-size: 16px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.todo-wrapper input:focus {
+  outline: none;
+  border-color: #0093d5;
+}
+
+#control-wrapper {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.todo-wrapper #clear-button {
+  background-color: #49b749;
+}
+
+.todo-wrapper #empty-button {
+  background-color: #9b1c20;
+}
+
+.todo-wrapper #save-button {
+  background-color: #49b749;
+}
+
+/* make checked todo list when double click */
+.checked {
+  background: #49b749;
+  color: #000000;
+}
