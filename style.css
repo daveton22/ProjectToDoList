@@ -87,7 +87,7 @@ html {
 
 .todo-wrapper input:focus {
   outline: none;
-  border-color: #92f59a;
+  border-color: #76a57a;
 }
 
 #control-wrapper {
@@ -252,7 +252,7 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 10px 0;
-  margin-top: 20px;
+  margin-top: 13.9rem;
   background-color: #395144;
   color: #fff;
   text-align: center;
